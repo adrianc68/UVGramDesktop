@@ -50,16 +50,13 @@
 
 .background-white-color {
     -fx-background-color:white;
-    -fx-background-radius:5px;
+    -fx-background-radius:3px;
 }
 
 .background-form {
     -fx-background-color:-background_card_clr;
-    -fx-background-radius:5px;
     -fx-border-color:#8a8a8a;
     -fx-border-width:0.5;
-    -fx-border-radius:5px;
-    -fx-effect: dropshadow(three-pass-box, #8a8a8a, 3, 0, 0, 0);
 }
 
 /** ICON **/
@@ -116,8 +113,8 @@
 
 .main-button {
  -fx-background-color:-button_first_clr;
- -fx-border-radius: 5px;
- -fx-background-radius:5px;
+ -fx-border-radius:3px;
+ -fx-background-radius:3px;
  -fx-text-fill:#fff;
  -fx-min-height:38px;
  -fx-border-width: 0 0 2 0;
@@ -135,22 +132,22 @@
 .secondary-button {
  -fx-background-color:-button_secondary_clr;
  -fx-border-color:-button_first_clr;
- -fx-background-radius:5px;
+ -fx-background-radius:3px;
  -fx-border-width:1px;
- -fx-border-radius: 5px;
+ -fx-border-radius:3px;
  -fx-text-fill:-button_first_clr;
  -fx-min-height:38px;
 }
 
 .secondary-button:hover {
  -fx-background-color:derive(-button_first_clr, 90%);
- -fx-border-radius:5px;
+ -fx-border-radius:3px;
 }
 
 .secondary-button:pressed {
     -fx-border-color:derive(-button_first_clr, -10%);
     -fx-border-width:0.5 1 0.5 1;
-    -fx-border-radius:5px;
+    -fx-border-radius:3px;
 }
 
 .secondary-button:selected {
@@ -165,13 +162,11 @@
 
 .optional-button:hover {
  -fx-text-fill:derive(-button_first_clr, 50%);
-  -fx-border-radius: 5px;
-  -fx-background-color:derive(-button_first_clr, 25%);
 }
 
 .button-text {
  -fx-background-color:transparent;
- -fx-background-radius:5px;
+ -fx-background-radius:3px;
  -fx-text-fill:-button_first_clr;
  -fx-min-height:25px;
 }
@@ -184,11 +179,11 @@
 
 .textfield {
   -fx-min-height:42px;
-  -fx-border-radius:5px;
+  -fx-border-radius:3px;
   -fx-background-color:transparent;
   -fx-border-color: -input_border_clr;
   -fx-background-insets: -0.2, 1 -1.4, 3;
-  -fx-background-radius: 5px;
+  -fx-background-radius:3px;
   -fx-padding: 4 7 4 15;
   -fx-prompt-text-fill: -prompt_text_clr;
   -fx-text-fill: -text_input_clr;
@@ -200,11 +195,11 @@
 
 .textarea {
   -fx-min-height:85px;
-  -fx-border-radius:5px;
+  -fx-border-radius:3px;
   -fx-background-color:transparent;
   -fx-border-color: -input_border_clr;
   -fx-background-insets: -0.2, 1 -1.4, 3;
-  -fx-background-radius: 5px;
+  -fx-background-radius:3px;
   -fx-padding: 7 7 4 10;
   -fx-prompt-text-fill: -prompt_text_clr;
   -fx-text-fill: -text_input_clr;
@@ -224,11 +219,11 @@
 
 .datepicker {
       -fx-min-height:42px;
-      -fx-border-radius:5px;
+      -fx-border-radius:3px;
       -fx-background-color:transparent;
       -fx-border-color: -input_border_clr;
       -fx-background-insets: -0.2, 1 -1.4, 3;
-      -fx-background-radius: 5px;
+      -fx-background-radius:3px;
       -fx-padding: 4 7 4 4;
       -fx-prompt-text-fill:-prompt_text_clr;
       -fx-text-fill: -text_input_clr;
@@ -254,7 +249,7 @@
 .datepicker > .arrow-button {
     -fx-background-color:transparent;
     -fx-background-insets: 0;
-    -fx-background-radius:5px;
+    -fx-background-radius:3px;
 
 }
 
@@ -305,11 +300,11 @@
 
 .comboBox {
   -fx-min-height:42px;
-  -fx-border-radius:5px;
+  -fx-border-radius:3px;
   -fx-background-color:transparent;
   -fx-border-color: #D7D6DC;
   -fx-background-insets: -0.2, 1 -1.4, 3;
-  -fx-background-radius: 5px;
+  -fx-background-radius:3px;
   -fx-padding: 4 7 4 4;
 }
 
@@ -321,7 +316,7 @@
 
 .comboBox > .arrow-button, .comboBox-table-cell > .arrow-button {
     -fx-background-color:transparent;
-    -fx-background-radius: 5px;
+    -fx-background-radius:3px;
 }
 
 .comboBox > .arrow-button > .arrow {
@@ -340,13 +335,13 @@
 .comboBox > .combo-box-popup > * {
     -fx-background-color:-background_card_clr;
     -fx-text-fill:-text_last_clr;
-    -fx-background-radius:5px;
+    -fx-background-radius:3px;
 }
 
 .comboBox > .combo-box-popup > .list-view {
     -fx-background-color:-background_card_clr;
     -fx-border-color:-input_border_focused_clr;
-    -fx-border-radius:5px;
+    -fx-border-radius:3px;
     -fx-border-width:0.5;
 }
 
@@ -434,21 +429,21 @@
 
 .combo-box-table-cell {
     -fx-min-height:42px;
-     -fx-border-radius:5px;
+     -fx-border-radius:3px;
      -fx-background-color:transparent;
      -fx-border-color: #D7D6DC;
      -fx-background-insets: -0.2, 1 -1.4, 3;
-     -fx-background-radius: 5px;
+     -fx-background-radius:3px;
      -fx-padding: 4 7 4 4;
 }
 
 .combo-box-table-cell .combo-box {
   -fx-min-height:42px;
-  -fx-border-radius:5px;
+  -fx-border-radius:3px;
   -fx-background-color:transparent;
   -fx-border-color: #D7D6DC;
   -fx-background-insets: -0.2, 1 -1.4, 3;
-  -fx-background-radius: 5px;
+  -fx-background-radius:3px;
   -fx-padding: 4 7 4 4;
 }
 
@@ -467,13 +462,13 @@
 .combo-box-table-cell .combo-box > .combo-box-popup > * {
     -fx-background-color:-background_card_clr;
     -fx-text-fill:-text_last_clr;
-    -fx-background-radius:5px;
+    -fx-background-radius:3px;
 }
 
 .combo-box-table-cell .combo-box > .list-view {
     -fx-background-color:-background_card_clr;
     -fx-border-color:-input_border_focused_clr;
-    -fx-border-radius:5px;
+    -fx-border-radius:3px;
     -fx-border-width:0.5;
 }
 
@@ -500,7 +495,7 @@
     -fx-background-color:transparent;
     -fx-padding:0;
     -fx-background-insets: 0;
-    -fx-background-radius:5px;
+    -fx-background-radius:3px;
 }
 
 .middle-cell {
@@ -681,7 +676,7 @@
 .bordered-radius-color {
     -fx-border-color:derive(-background_main_clr, -15%);
     -fx-background-color:#fff;
-    -fx-border-radius:5px;
+    -fx-border-radius:3px;
 }
 
 .wrongInput {
