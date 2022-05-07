@@ -669,14 +669,15 @@
 }
 
 .bordered-noradius-color {
-    -fx-border-color: derive(-background_main_clr, -35%);
     -fx-background-color:#fff;
+    -fx-border-color:#8a8a8a;
 }
 
 .bordered-radius-color {
-    -fx-border-color:derive(-background_main_clr, -15%);
     -fx-background-color:#fff;
     -fx-border-radius:3px;
+    -fx-border-color:#8a8a8a;
+
 }
 
 .wrongInput {
@@ -694,4 +695,10 @@
 
 .background_card_clr {
     -fx-background-color:-background_card_clr;
+}
+
+.userprofile {
+    -fx-background-radius:1500px;
+    -fx-border-radius:50px;
+    -fx-background-color:red;
 }
