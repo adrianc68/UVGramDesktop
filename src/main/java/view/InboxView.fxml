@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="693.0" prefWidth="1208.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox styleClass="background-form" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox prefHeight="591.0" prefWidth="275.0" style="-fx-border-width: 0 0.5 0 0;" styleClass="bordered-noradius-color">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="69.0" prefWidth="274.0" style="-fx-border-width: 0 0 0.5 0;" styleClass="bordered-noradius-color">
+                     <children>
+                        <Label alignment="CENTER" maxWidth="1.7976931348623157E308" style="-fx-font-weight: bold;" text="Mensajes" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+                        <Button mnemonicParsing="false" styleClass="button-text">
+                           <graphic>
+                              <FontAwesomeIcon iconName="EDIT" size="25px" />
+                           </graphic>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </padding>
+                  </HBox>
+                  <ListView prefHeight="200.0" prefWidth="200.0" styleClass="listview" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+            <StackPane HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="591.0" prefWidth="298.0" visible="false">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="69.0" prefWidth="274.0" spacing="15.0" style="-fx-border-width: 0 0 0.5 0;" styleClass="bordered-noradius-color">
+                           <children>
+                              <Label maxWidth="1.7976931348623157E308" style="-fx-font-weight: bold;" text="Detalles" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" styleClass="button-text">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="INFO_CIRCLE" size="25px" />
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </HBox>
+                        <VBox spacing="15.0" style="-fx-border-width: 0 0 0.5 0;" styleClass="bordered-noradius-color">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-text-fill: red;" styleClass="optional-button" text="Eliminar chat" />
+                              <Button mnemonicParsing="false" style="-fx-text-fill: red;" styleClass="optional-button" text="Bloquear" />
+                              <Button mnemonicParsing="false" style="-fx-text-fill: red;" styleClass="optional-button" text="Reportar" />
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="591.0" prefWidth="298.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="69.0" prefWidth="274.0" spacing="15.0" style="-fx-border-width: 0 0 0.5 0;" styleClass="bordered-noradius-color">
+                           <children>
+                              <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/images/pastel.png" />
+                                 </image>
+                              </ImageView>
+                              <Label maxWidth="1.7976931348623157E308" style="-fx-font-weight: bold;" text="Usuario" textAlignment="CENTER" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" styleClass="button-text">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="INFO_CIRCLE" size="25px" />
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </HBox>
+                        <ListView prefHeight="200.0" prefWidth="200.0" styleClass="listview" VBox.vgrow="ALWAYS" />
+                        <HBox alignment="CENTER_LEFT" style="-fx-border-width: 0.5 0 0 0;" styleClass="bordered-noradius-color">
+                           <children>
+                              <TextArea prefHeight="0.0" prefWidth="558.0" promptText="Enviar mensaje..." style="-fx-background-color: transparent; -fx-border-width: 0;" styleClass="textarea" HBox.hgrow="ALWAYS" />
+                              <Button mnemonicParsing="false" styleClass="button-text">
+                                 <graphic>
+                                    <FontAwesomeIcon iconName="SEND" size="25px" />
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="50.0" left="150.0" right="150.0" top="50.0" />
+   </padding>
+</VBox>

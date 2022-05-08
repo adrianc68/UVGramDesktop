@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox stylesheets="@../assets/style/standard.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="200.0" styleClass="scroll-bar" VBox.vgrow="ALWAYS">
+         <content>
+            <VBox alignment="TOP_CENTER" spacing="50.0">
+               <children>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="146.0" prefWidth="329.0">
+                           <children>
+                              <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/images/cDPFWYA.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="251.0" prefWidth="579.0" spacing="25.0">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="579.0" spacing="15.0">
+                                 <children>
+                                    <Label style="-fx-font-weight: bold;" text="adrian_ckaps" />
+                                    <Button mnemonicParsing="false" styleClass="secondary-button" text="Enviar mensaje" />
+                                    <Button mnemonicParsing="false" styleClass="secondary-button" text="Seguir" />
+                                    <Button mnemonicParsing="false" styleClass="secondary-button" text="Bloquear" />
+                                    <Button mnemonicParsing="false" styleClass="secondary-button" text="Reportar" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="579.0" spacing="35.0">
+                                 <children>
+                                    <Label text="3 publicaciones" />
+                                    <Label text="15.6k seguidores" />
+                                    <Label text="18.9k seguidos" />
+                                 </children>
+                              </HBox>
+                              <VBox maxWidth="550.0" spacing="10.0">
+                                 <children>
+                                    <Label style="-fx-font-weight: bold;" text="Roberto Miura Riuta" />
+                                    <Label prefHeight="113.0" prefWidth="550.0" text="padokfpasokdfaspodkfsapodkfsapodfkaspdofkaspodfkaspokfposdafkaspodfkaspdofksadpofkasdpofkaspofksdpofkaspodfksapofdaskpodsakfposdksadpofksdpofkaspofdkspo" wrapText="true" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" style="-fx-border-width: 0 0 0.5 0; -fx-background-color: transparent;" styleClass="bordered-noradius-color">
+                     <children>
+                        <VBox alignment="CENTER" minWidth="90.0" spacing="15.0" stylesheets="@../assets/style/standard.css">
+                           <children>
+                              <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" styleClass="userprofile" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../assets/images/pastel.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label text="Historias 1" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="CENTER" minWidth="90.0" spacing="15.0" stylesheets="@../assets/style/standard.css">
+                           <children>
+                              <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" styleClass="userprofile" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../assets/images/pastel.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label text="Historias 2" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                        <VBox alignment="CENTER" minWidth="90.0" spacing="15.0" stylesheets="@../assets/style/standard.css">
+                           <children>
+                              <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="50.0" styleClass="userprofile" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../assets/images/pastel.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </VBox>
+                              <Label text="Historias 3" />
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="35.0" left="35.0" right="35.0" top="35.0" />
+                     </padding>
+                  </HBox>
+                  <FlowPane hgap="35.0" vgap="35.0">
+                     <children>
+                        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="301.0" styleClass="background-form">
+                           <children>
+                              <ImageView fitHeight="274.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/images/pastel.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="301.0" styleClass="background-form">
+                           <children>
+                              <ImageView fitHeight="274.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/images/pastel.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="301.0" styleClass="background-form">
+                           <children>
+                              <ImageView fitHeight="274.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../assets/images/pastel.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="80.0" right="50.0" top="15.0" />
+                     </padding>
+                  </FlowPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+   <padding>
+      <Insets bottom="35.0" left="35.0" right="35.0" top="35.0" />
+   </padding>
+</VBox>

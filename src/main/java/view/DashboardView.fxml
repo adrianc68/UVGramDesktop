@@ -4,15 +4,10 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ListView?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="793.0" prefWidth="1208.0" styleClass="background-main" stylesheets="@../assets/style/standard.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
@@ -78,169 +73,7 @@
                </children></HBox>
          </top>
          <center>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-               <children>
-                  <BorderPane prefHeight="624.0" prefWidth="1038.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                     <right>
-                        <VBox prefHeight="624.0" prefWidth="290.0" BorderPane.alignment="CENTER">
-                           <children>
-                              <VBox alignment="TOP_CENTER" prefHeight="445.0" prefWidth="290.0" spacing="15.0">
-                                 <children>
-                                    <Label styleClass="section-label" text="Sugerencias" />
-                                    <Label styleClass="description-label" text="No disponible por el momento." />
-                                 </children></VBox>
-                           </children>
-                        </VBox>
-                     </right>
-                     <padding>
-                        <Insets bottom="25.0" left="99.0" right="100.0" top="25.0" />
-                     </padding>
-                     <center>
-                        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" styleClass="scroll-bar" vbarPolicy="ALWAYS" vvalue="1.0" BorderPane.alignment="CENTER">
-                           <content>
-                              <AnchorPane>
-                                 <children>
-                                    <VBox layoutY="219.0" spacing="25.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                       <children>
-                                          <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="119.0" prefWidth="670.0" styleClass="background-form">
-                                             <children>
-                                                <ListView prefHeight="200.0" prefWidth="668.0" styleClass="listview" />
-                                             </children>
-                                          </VBox>
-                                          <VBox minHeight="-Infinity" minWidth="-Infinity" prefWidth="670.0" styleClass="background-form" stylesheets="@../assets/style/standard.css">
-                                             <children>
-                                                <HBox alignment="CENTER_LEFT" prefWidth="668.0" spacing="15.0" style="-fx-border-width: 0 0 0.5 0;" styleClass="bordered-noradius-color">
-                                                   <children>
-                                                      <HBox alignment="CENTER_LEFT" spacing="15.0" HBox.hgrow="ALWAYS">
-                                                         <children>
-                                                            <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
-                                                               <image>
-                                                                  <Image url="@../assets/images/pastel.png" />
-                                                               </image>
-                                                            </ImageView>
-                                                            <Label style="-fx-font-weight: bold;" text="username" />
-                                                         </children>
-                                                      </HBox>
-                                                      <HBox>
-                                                         <children>
-                                                            <Button mnemonicParsing="false" styleClass="optional-button">
-                                                               <graphic>
-                                                                  <FontAwesomeIcon iconName="LIST_UL" />
-                                                               </graphic>
-                                                            </Button>
-                                                         </children>
-                                                      </HBox>
-                                                   </children>
-                                                   <padding>
-                                                      <Insets bottom="15.0" left="35.0" right="15.0" top="15.0" />
-                                                   </padding>
-                                                </HBox>
-                                                <VBox alignment="CENTER" maxWidth="668.0" minWidth="668.0">
-                                                   <children>
-                                                      <ImageView fitHeight="471.0" fitWidth="668.0" pickOnBounds="true">
-                                                         <image>
-                                                            <Image url="@../assets/images/xYXUooa.png" />
-                                                         </image>
-                                                      </ImageView>
-                                                   </children>
-                                                </VBox>
-                                                <VBox minHeight="150.0">
-                                                   <children>
-                                                      <HBox spacing="15.0" style="-fx-border-width: 0.5 0 0 0;" styleClass="bordered-noradius-color">
-                                                         <children>
-                                                            <HBox spacing="15.0" HBox.hgrow="ALWAYS">
-                                                               <children>
-                                                                  <Button mnemonicParsing="false" styleClass="button-text">
-                                                                     <graphic>
-                                                                        <FontAwesomeIcon iconName="HEART" size="20" />
-                                                                     </graphic>
-                                                                  </Button>
-                                                                  <Button mnemonicParsing="false" styleClass="button-text">
-                                                                     <graphic>
-                                                                        <FontAwesomeIcon iconName="COMMENT" size="20px" />
-                                                                     </graphic>
-                                                                  </Button>
-                                                                  <Button mnemonicParsing="false" styleClass="button-text">
-                                                                     <graphic>
-                                                                        <FontAwesomeIcon iconName="SEND" size="20px" />
-                                                                     </graphic>
-                                                                  </Button>
-                                                               </children>
-                                                            </HBox>
-                                                            <HBox>
-                                                               <children>
-                                                                  <Button mnemonicParsing="false" styleClass="button-text">
-                                                                     <graphic>
-                                                                        <FontAwesomeIcon iconName="BOOKMARK" size="20px" />
-                                                                     </graphic>
-                                                                  </Button>
-                                                               </children>
-                                                            </HBox>
-                                                         </children>
-                                                         <padding>
-                                                            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-                                                         </padding>
-                                                      </HBox>
-                                                      <VBox spacing="10.0">
-                                                         <children>
-                                                            <HBox spacing="5.0">
-                                                               <children>
-                                                                  <Label style="-fx-font-weight: bold;" text="480" />
-                                                                  <Label style="-fx-font-weight: bold;" text="Me gusta" />
-                                                               </children>
-                                                            </HBox>
-                                                            <HBox spacing="10.0">
-                                                               <children>
-                                                                  <Label style="-fx-font-weight: bold;" text="thewilsongwis" wrapText="true" HBox.hgrow="ALWAYS" />
-                                                                  <Label prefWidth="480.0" text="adspokfspdofkapofkpsodfksapodfksadpofksadpofksdpofkaspofkspofksadpofkaspofksadpofskdpfdsakfposakfspoadkfspdofkasdpofkasdpofsakpodfkasdpfoaskfpodsaksaofksapdokfaspodfksdapofasadspokfspdofkapofkpsodfksapodfksadpofksadpofksdpofkaspofkspofksadpofkaspofksadpofskdpfdsakfposakfspoadkfspdofkasdpofkasdpofsakpodfkasdpfoaskfpodsaksaofksapdokfaspodfksdapofas" wrapText="true" HBox.hgrow="ALWAYS" />
-                                                               </children>
-                                                            </HBox>
-                                                            <HBox spacing="10.0">
-                                                               <children>
-                                                                  <Label styleClass="description-label" text="Ver los 3 comentarios" wrapText="true" HBox.hgrow="ALWAYS" />
-                                                               </children>
-                                                            </HBox>
-                                                            <HBox spacing="10.0">
-                                                               <children>
-                                                                  <Label style="-fx-font-size: 0.8em;" styleClass="description-label" text="Hace 23 horas" wrapText="true" HBox.hgrow="ALWAYS">
-                                                                     <font>
-                                                                        <Font size="8.0" />
-                                                                     </font>
-                                                                  </Label>
-                                                               </children>
-                                                            </HBox>
-                                                         </children>
-                                                         <padding>
-                                                            <Insets bottom="10.0" left="25.0" right="25.0" top="10.0" />
-                                                         </padding>
-                                                      </VBox>
-                                                      <HBox alignment="CENTER" style="-fx-border-width: 0.5 0 0 0;" styleClass="bordered-noradius-color">
-                                                         <children>
-                                                            <TextField promptText="Agregar un comentario..." style="-fx-background-color: transparent; -fx-border-width: 0;" styleClass="textfield" HBox.hgrow="ALWAYS" />
-                                                            <Button mnemonicParsing="false" styleClass="optional-button" text="Publicar" />
-                                                         </children>
-                                                         <padding>
-                                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                                                         </padding>
-                                                      </HBox>
-                                                   </children>
-                                                </VBox>
-                                             </children>
-                                          </VBox>
-                                       </children>
-                                       <padding>
-                                          <Insets left="25.0" right="25.0" />
-                                       </padding>
-                                    </VBox>
-                                 </children>
-                              </AnchorPane>
-                           </content>
-                          
-                        </ScrollPane>
-                     </center>
-                  </BorderPane>
-               </children>
-            </AnchorPane>
+            <AnchorPane BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
    </children>
